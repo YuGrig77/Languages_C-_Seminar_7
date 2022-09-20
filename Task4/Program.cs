@@ -53,7 +53,7 @@ int GetMultiply(int[,] inArray)
     return Sum;
 }
 
-// or
+// or one more method of calculation
 
 // int GetSumDiagonalArray(int[,] arrayNew)
 // {
