@@ -33,6 +33,7 @@ double[,] FillArray(int m, int n, int minValue, int maxValue)
 
 void PrintArray(double[,] inarray)
 {
+    Console.WriteLine($"m = {rows}, n = {columns}.");
     for (int i = 0; i < inarray.GetLength(0); i++)
     {
         for (int j = 0; j < inarray.GetLength(1); j++)
